@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".SellingActivity" >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_selling"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/AppMainPageTheme"
+        app:popupTheme="@style/AppMainPageTheme.PopupOverlay" />
+
+    <FrameLayout
+        android:id="@+id/selling_contain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="10" />
+
+    <ImageView
+        android:id="@+id/upload_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/add_item_image" />
+
+
+</LinearLayout>

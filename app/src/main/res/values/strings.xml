@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CraigslistDemo</string>
+    <string name="title">2TRADE</string>
+    <string name="menu_item_0">Front\tPage</string>
+    <string name="menu_item_1">Task\t1</string>
+    <string name="menu_item_2">Master\tFlow</string>
+    <string name="open_nav">Opened\tNavigation</string>
+    <string name="close_nav">Closed\tNavigation</string>
+    <string name="title_activity_find_neighbors">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
